@@ -46,7 +46,7 @@ namespace VMS.TPS
         {
 
             bool db_result = false;
-            string connStr = "server=rghrhsql011;user=eart;database=radioterapiklinikken;password=eart;";
+            string connStr = "****;";
             SqlConnection SqlConnection = new SqlConnection(connStr);
             try
             {
@@ -138,7 +138,7 @@ namespace VMS.TPS
         {
             // Der skal laves en opførsel for 000 koder
             bool db_result = false;
-            string connStr = "server=rghrhsql011;user=eart;database=radioterapiklinikken;password=eart;";
+            string connStr = "****;";
             SqlConnection SqlConnection = new SqlConnection(connStr);
             try
             {
@@ -211,7 +211,7 @@ namespace VMS.TPS
 
             bool db_result = false;
 
-            string connStr = "server=rghrhsql011;user=eart;database=radioterapiklinikken;password=eart;";
+            string connStr = "****;";
             SqlConnection SqlConnection = new SqlConnection(connStr);
             try
             {
@@ -377,7 +377,7 @@ namespace VMS.TPS
         {
 
             bool db_result = false;
-            string connStr = "server=rghrhsql011;user=eart;database=radioterapiklinikken;password=eart;";
+            string connStr = "*****;";
             using (SqlConnection SqlConnection = new SqlConnection(connStr))
             {
 
@@ -420,7 +420,7 @@ namespace VMS.TPS
         {
 
             bool db_result = false;
-            string connStr = "server=rghrhsql011;user=eart;database=radioterapiklinikken;password=eart;";
+            string connStr = "****;";
             using (SqlConnection SqlConnection = new SqlConnection(connStr))
             {
 
@@ -470,7 +470,7 @@ namespace VMS.TPS
             int failures = 0;
             int total = 0;
             bool db_result = false;
-            string connStr = "server=rghrhsql011;user=eart;database=radioterapiklinikken;password=eart;";
+            string connStr = "****;";
             using (SqlConnection SqlConnection = new SqlConnection(connStr))
             {
                 try
