@@ -1,6 +1,5 @@
-# PlanCheck_article
-The software version used for the purposes of "Automation of DVH Constraint Checks and Physics Quality Control Review Improves Patient Safety in Radiotherapy"
+Plancheck software has been updated to latest clinical version.
 
-This is the version of the clinical script as used on February 26 2019. Changes were made to database reporting compared to the clinical script.
-
-The current clinical version will be made available at a later stage.
+In DB_parser - Copy, change all instances of:
+string connStr = "Change this before compiling";
+To match your database.
